@@ -1,0 +1,81 @@
+≈<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" lang="de">
+<head>
+	{{ page_head }}
+	<meta name="google-site-verification" content="ngYH_ULPyW0YvzQFzBraM9q7RRW7MdPy94yxkGwjNDE" />
+	<link href="screen.css" rel="stylesheet" type="text/css" media="screen"/>
+	<link href="editor.css" rel="stylesheet" type="text/css" media="all"/>
+	<link href="print.css" rel="stylesheet" type="text/css" media="print"/>
+	{{ register_css }}
+	[[EmailFilter]]
+	
+	
+
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+			<div class="header_img">
+				<!-- top header picture -->
+				<script type="text/javascript">
+		
+				</script>
+				<noscript>
+				<img src="{template_dir}/images/header.jpg" border="0"/>	
+				</noscript>
+			</div>
+			<!-- left corner on top -->
+			<img src="{template_dir}/images/round_corner2transparent_24.png" border="0" width="865" height="120" class="top_corner ifie6"/>
+			<!--[if IE 6]><img src="{template_dir}/images/round_corner2transparent_8.png" border="0" width="865" height="120" class="top_corner"/><![endif]-->			
+			<!-- logo -->
+			<a href="{{ wb_url }}" target="_top"><img src="{template_dir}/images/logo_24.png" border="0" width="475" height="220" class="logo ifie6"/></a>
+			<!--[if IE 6]><img src="{template_dir}/images/logo.png" border="0" width="475" height="220" class="logo"/><![endif]-->
+        </div>
+		<!--main menu -->
+        <div class="main_menu">
+        {{ main_menu }}
+        </div>
+		<div class="wrapper">
+			<!--main content-->
+			<div class="content">
+			{{ main_content }}
+			</div>
+			<div class="right_content">
+				<div class="languages">
+				{{ language }}
+				</div>
+				<!--site search-->
+				<div class="searchbox">
+				[[searchbox]]
+				</div>
+				<div class="social_bookmarks">
+					<!-- AddThis Button BEGIN -->
+					<a class="addthis_button" href="http://www.addthis.com/bookmark.php?v=250&amp;username=xa-4c50ac6b76d73c7b"><img src="http://s7.addthis.com/static/btn/v2/lg-share-en.gif" width="125" height="16" alt="Bookmark and Share" style="border:0"/></a><script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#username=xa-4c50ac6b76d73c7b"></script>
+					<!-- AddThis Button END -->
+				</div>
+				<div class="google_ads">
+				[[ads]]
+				</div>
+				<div class="agoda_banner">
+					<a href='http://www.agoda.de' rel='nofollow'><img src='http://images.partners.agoda.com/banners/agoda.de/text_L_2.jpg' border="0"/></a>
+				</div>
+				<!--right content (ads)-->
+				<div>
+				{{ right_content }}
+				</div>
+			</div>
+			<div style="clear: both;"></div>
+		</div>
+		<div class="footer_menu">
+			<!--footer menu-->
+			<ul class="menu-top">
+				{{ footer_menu }}
+			</ul>
+		</div>
+		<!--istanbul footer-->
+		<div class="footer">
+			<div class="copyright">{{ copyright }}</div>
+		</div>
+    </div>
+</body>
+</html>
